@@ -1,13 +1,15 @@
 {
   "name": "idealspeaking---online-english-learning",
-  "homepage": "https://alihumadi.github.io/ideal-speaking ",
+  "homepage": "https://AliHumadi2000.github.io/ideal-speaking",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
