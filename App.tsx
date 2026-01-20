@@ -3,8 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Classes from "./components/Classes";
 import WhyChooseUs from "./components/WhyChooseUs";
-import AboutUs from "./components/AboutUs";
-import Testimonials from "./components/Testimonials";
+
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 
