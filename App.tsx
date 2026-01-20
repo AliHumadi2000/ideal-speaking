@@ -36,13 +36,7 @@ const App: React.FC = () => {
           <WhyChooseUs />
         </section>
 
-        <section id="about" className="py-20 bg-white overflow-hidden">
-          <AboutUs />
-        </section>
-
-        <section id="testimonials" className="py-20 bg-slate-900 text-white">
-          <Testimonials />
-        </section>
+     
 
         <section id="contact" className="py-20 bg-slate-50">
           <ContactUs />
